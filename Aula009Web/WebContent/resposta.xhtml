@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:h="http://xmlns.jcp.org/jsf/html"
+	  xmlns:f="http://xmlns.jcp.org/jsf/core"	
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head>
+  <title>Página JSF</title>
+</h:head>
+
+<h:body>
+		<h1><h:outputText value="#{quizBean.titulo}"></h:outputText></h1>
+		<h2>Bem vindo <h:outputText value="#{quizBean.nome}"></h:outputText></h2>	
+		<p>A Data e hora atual é <h:outputText value="#{quizBean.dataHora}"></h:outputText></p>	
+</h:body>
+
+</html>
